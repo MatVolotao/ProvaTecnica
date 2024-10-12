@@ -1,0 +1,8 @@
+def verificaString(string):
+    letra_a = string.count('a') 
+    letra_A = string.count('A')  
+    print(f"A letra 'a' aparece {letra_a} vezes enquanto a letra 'A' aparece {letra_A} vezes")
+
+# string já pré-definida
+entrada = "Testando PalavrAs com A maisculo"
+verificaString(entrada)  
