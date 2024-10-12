@@ -1,0 +1,15 @@
+def fibonacci(n):
+    a, b = 0, 1
+    while b <= n:
+        if b == n:
+            print(f"O número {n} pertence  sequencia.")
+            return
+        auxiliar = b  
+        b = a + b  
+        a = auxiliar   
+    print(f"O número {n} NÃO pertence a sequencia.")
+    return
+
+#usando numero predefinido
+numero = 21  
+print(fibonacci(numero))
